@@ -3,8 +3,8 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
-      colors: {
-        "red-bg": "#ffd9d4",
+      boxShadow: {
+        customShadow: "0 4px 5px 0 rgb(0 0 0 / 10%)",
       },
     },
   },
